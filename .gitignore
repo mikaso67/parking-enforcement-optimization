@@ -1,0 +1,24 @@
+# data (challenge data cannot be redistributed)
+data/
+*.csv
+*.parquet
+
+# models and outputs
+models/
+*.pkl
+*.joblib
+mlruns/
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# os / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
